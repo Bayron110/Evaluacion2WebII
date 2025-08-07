@@ -1,0 +1,19 @@
+{
+  "cursos": [
+    {
+      "id": "2a89",
+      "nombre": "Juan",
+      "paralelo": "2",
+      "perido": "abril-2025"
+    },
+    {
+      "id": "d815",
+      "nombre": "dd",
+      "paralelo": "dd",
+      "perido": "dd",
+      "docente": "dd",
+      "tipo": "dd",
+      "materia": "dd"
+    }
+  ]
+}

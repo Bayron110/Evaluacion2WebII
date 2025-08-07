@@ -1,0 +1,10 @@
+{
+    "usuarios": [
+        {
+            "id": "072b",
+            "nombre": "Bayron",
+            "correo": "bayron@gmail.com",
+            "contrasena": "12345"
+        }
+    ]
+}

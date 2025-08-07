@@ -1,0 +1,37 @@
+<div class="contenedor-tarjetas grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+    @for (curso of cursos; track curso.nombre) {
+    <div
+        class="relative tarjeta border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden cursor-pointer hover:shadow-lg">
+        <div
+            class="h-60 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold">
+            {{ curso.nombre.charAt(0).toUpperCase() }}
+        </div>
+
+        <div class="contenido text-center bg-white dark:bg-gray-800 p-4">
+            <h2 class="text-xl font-bold text-gray-800 dark:text-white mb-2">
+               Nombre del Curso: {{ curso.nombre }}
+            </h2>
+
+            <p class="text-gray-600 dark:text-gray-300 mb-1">
+                Paralelo: <span class="font-medium text-indigo-600">{{ curso.paralelo }}</span>
+            </p>
+
+            <p class="text-gray-600 dark:text-gray-300 mb-3">
+                Período: <span class="font-medium text-indigo-600">{{ curso.perido }}</span>
+            </p>
+
+            <p class="text-gray-600 dark:text-gray-300 mb-3">
+                Docente a impartir: <span class="font-medium text-indigo-600">{{ curso.docente }}</span>
+            </p>
+
+            <p class="text-gray-600 dark:text-gray-300 mb-3">
+                Tipo de Curso: <span class="font-medium text-indigo-600">{{ curso.tipo }}</span>
+            </p>
+            <p class="text-gray-600 dark:text-gray-300 mb-3">
+                Materia que tiene el curso: <span class="font-medium text-indigo-600">{{ curso.materia }}</span>
+            </p>
+
+        </div>
+    </div>
+    }
+</div>

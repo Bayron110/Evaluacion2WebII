@@ -4,5 +4,6 @@ export interface Cursos{
     perido: string,
     docente: string,
     tipo: string,
-    materia: string
+    materia: string,
+    duracion: string
 }

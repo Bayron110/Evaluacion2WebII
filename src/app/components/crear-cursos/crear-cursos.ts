@@ -3,11 +3,12 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CursosCrear } from '../../services/cursos-crear';
 import { CursosTPipe } from '../../pipes/cursos-t-pipe';
+import { HorasPipe } from '../../pipes/horas-pipe';
 
 @Component({
   selector: 'app-crear-cursos',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, CursosTPipe],
+  imports: [CommonModule, ReactiveFormsModule, CursosTPipe, HorasPipe],
   templateUrl: './crear-cursos.html',
   styleUrl: './crear-cursos.css'
 })
@@ -24,6 +25,7 @@ export class CrearCursos {
       docente: ['', Validators.required],
       tipo: ['', Validators.required],
       materia: ['', Validators.required],
+      duracion: ['', Validators.required]
     });
   }
 

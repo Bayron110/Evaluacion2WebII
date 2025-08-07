@@ -1,10 +1,16 @@
 {
-    "usuarios": [
-        {
-            "id": "072b",
-            "nombre": "Bayron",
-            "correo": "bayron@gmail.com",
-            "contrasena": "12345"
-        }
-    ]
+  "usuarios": [
+    {
+      "id": "0213",
+      "nombre": "Bayron",
+      "correo": "bayron123@gmail.com",
+      "contrasena": "1234"
+    },
+    {
+      "id": "957a",
+      "nombre": "Veronica",
+      "correo": "Veronica@Gmail.com",
+      "contrasena": "1234"
+    }
+  ]
 }

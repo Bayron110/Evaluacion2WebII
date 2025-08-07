@@ -2,12 +2,13 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Cursos } from '../../../interface/Cursos';
+import { HorasPipe } from '../../pipes/horas-pipe';
 
 
 @Component({
   selector: 'app-cursos',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, HorasPipe],
   templateUrl: './cursos.html',
   styleUrl: './cursos.css'
 })

@@ -31,8 +31,11 @@
                 Materia que tiene el curso: <span class="font-medium text-indigo-600">{{ curso.materia }}</span>
             </p>
             <p class="text-gray-600 dark:text-gray-300 mb-3">
-                Duracion de la Materia: <span class="font-medium text-indigo-600">{{ curso.duracion }}</span>
-            </p>
+  Duración de la Materia: 
+  <span class="font-medium text-indigo-600">
+    {{ curso.duracion | horasPipe }}
+  </span>
+</p>
 
         </div>
     </div>

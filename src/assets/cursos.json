@@ -1,19 +1,24 @@
 {
   "cursos": [
     {
-      "id": "2a89",
-      "nombre": "Juan",
-      "paralelo": "2",
-      "perido": "abril-2025"
+      "id": "04cf",
+      "nombre": "Matematicas",
+      "paralelo": "3 ro B",
+      "perido": "septiembre - Enero 2026",
+      "docente": "Maria Perez",
+      "tipo": "Presencial",
+      "materia": "Market",
+      "duracion": "555"
     },
     {
-      "id": "d815",
-      "nombre": "dd",
-      "paralelo": "dd",
-      "perido": "dd",
-      "docente": "dd",
-      "tipo": "dd",
-      "materia": "dd"
+      "id": "6501",
+      "nombre": "Lengua y Literatura",
+      "paralelo": "3ro B",
+      "perido": "septiembre - Enero 2026",
+      "docente": "Veronica",
+      "tipo": "String",
+      "materia": "Ciencias del Lenguaje",
+      "duracion": "555"
     }
   ]
 }
